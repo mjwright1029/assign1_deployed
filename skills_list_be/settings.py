@@ -125,9 +125,9 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ORIGIN_WHITELIST = (
+CORS_ORIGIN_ORIGINS = (
+    'https://assign1-2-deployed.vercel.app',
     'https://localhost:8080',
-    'https://127.0.0.1:8080',
 )
 CORS_ORIGIN_ALLOW_ALL = True
 
